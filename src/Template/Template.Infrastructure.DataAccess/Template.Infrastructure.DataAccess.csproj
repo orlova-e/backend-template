@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <RootNamespace>Notes.Infrastructure.DataAccess</RootNamespace>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Template.Domain.Services\Template.Domain.Services.csproj" />
+      <ProjectReference Include="..\Template.Infrastructure.Base\Template.Infrastructure.Base.csproj" />
+    </ItemGroup>
+
+</Project>
